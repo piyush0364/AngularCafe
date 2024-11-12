@@ -54,7 +54,7 @@ export class PaymentService {
 
     
   createOrder(orderData: any): Observable<any> {
-    var url = 'https://localhost:44331/api/Orders';
+    var url = 'https://cafe-management-system-deb4b5hjamamfvdh.northeurope-01.azurewebsites.net/api/Orders';
 
     return this.http.post(url, orderData);
   }
