@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class OrderitemService {
-  readonly apiUrl = 'https://localhost:44331/api/OrderItems';
+  readonly apiUrl = 'https://cafe-management-system-deb4b5hjamamfvdh.northeurope-01.azurewebsites.net/api/OrderItems';
 
   constructor(private http : HttpClient) { }
 
