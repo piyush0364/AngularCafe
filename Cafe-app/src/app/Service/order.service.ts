@@ -7,7 +7,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
   providedIn: 'root'
 })
 export class OrderService {
-  private apiUrl = "https://localhost:44331/api/Orders";
+  private apiUrl = "https://cafe-management-system-deb4b5hjamamfvdh.northeurope-01.azurewebsites.net/api/Orders";
   constructor(private http:HttpClient) { }
   getOrders(): Observable<Orders[]> {
     return this.http.get<Orders[]>(this.apiUrl);

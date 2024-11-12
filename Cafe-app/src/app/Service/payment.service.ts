@@ -18,8 +18,8 @@ export interface Payment {
     providedIn: 'root'
 })
 export class PaymentService {
-    private apiUrl = 'https://localhost:44331/api/Payments'; // Adjust URL as needed
-    private apiUrl1 = 'https://localhost:44331/api/OrderItems';  // Replace with your actual API URL
+    private apiUrl = 'https://cafe-management-system-deb4b5hjamamfvdh.northeurope-01.azurewebsites.net/api/Payments'; // Adjust URL as needed
+    private apiUrl1 = 'https://cafe-management-system-deb4b5hjamamfvdh.northeurope-01.azurewebsites.net/api/OrderItems';  // Replace with your actual API URL
 
 
     constructor(private http: HttpClient,private crt : CartService) { }
