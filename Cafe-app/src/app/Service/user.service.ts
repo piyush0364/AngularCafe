@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 export class UserService {
 
   uData: User = new User();
-  readonly ApiUrl='https://cafe-management-system-deb4b5hjamamfvdh.northeurope-01.azurewebsites.net/api/Users';
+  readonly ApiUrl='https://cafe-mgm-a7h7a2bpbkekgxh4.eastasia-01.azurewebsites.net/api/Users';
 
   uList:User[];
 
