@@ -11,7 +11,7 @@ import { Observable } from 'rxjs';
 export class ProductService {
 
   pData: Product = new  Product();
-  readonly ppApiUrl='https://cafe-management-system-deb4b5hjamamfvdh.northeurope-01.azurewebsites.net/api/Products';
+  readonly ppApiUrl='https://cafe-mgm-a7h7a2bpbkekgxh4.eastasia-01.azurewebsites.net/api/Products';
 
   pList:Product[];
 

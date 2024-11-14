@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 })
 export class AuthService {
 
-  private baseUrl:string = "https://cafe-management-system-deb4b5hjamamfvdh.northeurope-01.azurewebsites.net/api/Auth/";
+  private baseUrl:string = "https://cafe-mgm-a7h7a2bpbkekgxh4.eastasia-01.azurewebsites.net/api/Auth/";
   private userPayload:any;
 
   constructor(public http : HttpClient, private router : Router) { 

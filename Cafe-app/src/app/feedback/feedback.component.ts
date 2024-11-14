@@ -8,7 +8,7 @@ import { ToastrService } from 'ngx-toastr';
   styleUrl: './feedback.component.css'
 })
 export class FeedbackComponent {
-  readonly ppApiUrl='https://cafe-management-system-deb4b5hjamamfvdh.northeurope-01.azurewebsites.net/api/Contacts';
+  readonly ppApiUrl='https://cafe-mgm-a7h7a2bpbkekgxh4.eastasia-01.azurewebsites.net/api/Contacts';
 
   constructor(private http: HttpClient,private toastr: ToastrService) {}
 

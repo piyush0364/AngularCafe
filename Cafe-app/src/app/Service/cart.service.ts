@@ -17,7 +17,7 @@ export interface CartItem {
 })
 export class CartService {
 
-  private apiUrl = 'https://cafe-management-system-deb4b5hjamamfvdh.northeurope-01.azurewebsites.net/api/Carts';  // Replace with your actual API URL
+  private apiUrl = 'https://cafe-mgm-a7h7a2bpbkekgxh4.eastasia-01.azurewebsites.net/api/Carts';  // Replace with your actual API URL
   id:number;
 
   constructor(private http: HttpClient) {
@@ -28,7 +28,7 @@ export class CartService {
   
 
   getCartItems(userId: number): Observable<CartItem[]> {
-    const apiUrl = `https://cafe-management-system-deb4b5hjamamfvdh.northeurope-01.azurewebsites.net/api/cartitem/${userId}`;
+    const apiUrl = `https://cafe-mgm-a7h7a2bpbkekgxh4.eastasia-01.azurewebsites.net/api/cartitem/${userId}`;
     return this.http.get<CartItem[]>(apiUrl).pipe(
       catchError(this.handleError<CartItem[]>('getCartItems', []))
     );

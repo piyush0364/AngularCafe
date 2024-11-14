@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class FeedbackService {
 
-  private readonly apiUrl='https://cafe-management-system-deb4b5hjamamfvdh.northeurope-01.azurewebsites.net/api/Contacts'
+  private readonly apiUrl='https://cafe-mgm-a7h7a2bpbkekgxh4.eastasia-01.azurewebsites.net/api/Contacts'
   constructor(private http: HttpClient) { }
   getFeedback(): Observable<any[]> {
     return this.http.get<any[]>(this.apiUrl);

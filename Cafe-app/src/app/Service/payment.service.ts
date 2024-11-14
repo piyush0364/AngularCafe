@@ -18,8 +18,8 @@ export interface Payment {
     providedIn: 'root'
 })
 export class PaymentService {
-    private apiUrl = 'https://cafe-management-system-deb4b5hjamamfvdh.northeurope-01.azurewebsites.net/api/Payments'; // Adjust URL as needed
-    private apiUrl1 = 'https://cafe-management-system-deb4b5hjamamfvdh.northeurope-01.azurewebsites.net/api/OrderItems';  // Replace with your actual API URL
+    private apiUrl = 'https://cafe-mgm-a7h7a2bpbkekgxh4.eastasia-01.azurewebsites.net/api/Payments'; // Adjust URL as needed
+    private apiUrl1 = 'https://cafe-mgm-a7h7a2bpbkekgxh4.eastasia-01.azurewebsites.net/api/OrderItems';  // Replace with your actual API URL
 
 
     constructor(private http: HttpClient,private crt : CartService) { }
